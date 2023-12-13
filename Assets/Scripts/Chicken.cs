@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// INHERITANCE
 public class Chicken : Animal
 {
     void Update()
@@ -13,6 +14,7 @@ public class Chicken : Animal
         }
     }
 
+    // POLYMORPHISM
     public override void Speak()
     {
         Debug.Log("Chicken says Cluck!");

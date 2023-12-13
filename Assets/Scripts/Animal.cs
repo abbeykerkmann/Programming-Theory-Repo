@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class Animal : MonoBehaviour
 {
+    // ENCAPSULATION
     private float speed = 10.0f;
     public float Speed
     {
@@ -31,5 +32,6 @@ public abstract class Animal : MonoBehaviour
         Run();
     }
 
+    // ABSTRACTION
     public abstract void Speak();
 }
